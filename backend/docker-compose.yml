@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+    influxdb:
+        image: influxdb:latest
+        container_name: "influxdb"
+        volumes:
+            - "./influxdb:/var/lib/influxdb:rw"
+        ports:
+            - "8086:8086"
+    grafana:
+        image: grafana/grafana
+        container_name: grafana
+        depends_on: 
+            - influxdb
+        ports:
+            - "3000:3000"
+        volumes:
+            - "./grafana:/var/lib/grafana:rw"
