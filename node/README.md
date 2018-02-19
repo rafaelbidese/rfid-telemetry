@@ -1,5 +1,9 @@
 # Sensor Node
 
+<p align="center">
+  <img src="node-circuit.png">
+</p>
+
 - **LM35:** Temperature sensor
 - **Arduino Nano:** microcontrolling unit
 - **FS1000A:** 433MHz radio transmitter
