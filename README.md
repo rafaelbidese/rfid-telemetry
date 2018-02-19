@@ -4,7 +4,7 @@ This project is meant to be a easy to implement solution for a telemetry system.
 The whole system uses technologies available for quickly developing a MVP solution.
 In short words, the system can be described by: sensor nodes that connect through low-level radio 
 to a gateway that has access to the internet. The gateway operates as a MQTT client and publishes the 
-data to a remote MQTT server. A MQTT client in python subscribes to the incoming data and directs it
+data to a remote MQTT server. A MQTT client in subscribes to the incoming data and directs it
 to a database for later visualization. The database client that provides good visualization of the
 data uses a customizable dashboard approach.
 
@@ -43,7 +43,6 @@ For the service part of the project it was used a **Heroku** dyno as the MQTT Se
 
 - **Grafana:** open platform for analytics and monitoring (container: grafana/grafana)
 
-**Application** (container: python)
+**Application** (container: telegraf)
 
-- **MQTT Client:** paho
-- **InfluxDB Client:** influxdb
+- **Telegraf:** a plugin-driven server agent for collecting and reporting metrics
