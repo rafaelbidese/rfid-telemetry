@@ -1,7 +1,7 @@
 # Gateway
 
 <p align="center">
-  <img width="460" height="300" src="gateway-circuit.png">
+  <img src="gateway-circuit.png">
 </p>
 
 - **XY-MK-5V:** 433MHz radio receiver
