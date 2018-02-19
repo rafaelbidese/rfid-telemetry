@@ -1,7 +1,8 @@
 # Gateway
 
-![alt text](gateway-circuit.png?raw=true "Gateway Circuit")
-
+<p align="center">
+  <img width="460" height="300" src="gateway-circuit.png">
+</p>
 
 - **XY-MK-5V:** 433MHz radio receiver
 - **Arduino Nano:** radio bridge
